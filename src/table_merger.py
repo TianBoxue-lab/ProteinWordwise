@@ -204,7 +204,6 @@ def main():
                                                 f'{os.path.basename(filename_prefix)}_{length_range}_{param_name}.csv'))
     if last_checkpoint_path is not None:
         os.remove(last_checkpoint_path)
-    # todo: save an array/dict of the dictionary sorted by frequency
     return dictionary
 
 
