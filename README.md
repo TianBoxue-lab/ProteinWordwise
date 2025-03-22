@@ -18,7 +18,8 @@
 
 ## Hardware requirements
 
-To run ProteinWordwise on single protein with the general and family-specific , a computer with the capability to run inference of its fundamental model, [ESM2](https://github.com/facebookresearch/esm) (T33-650B version).
+To run ProteinWordwise on single protein with ready-made general and family-specific dictionaries, a computer with the capability to run inference of its fundamental model, [ESM2](https://github.com/facebookresearch/esm) (T33-650B version) is required.
+Creating dictionary from your own protein sequence dataset is an memory-consuming task, depending on your dataset size. 16GB RAM can run this step for about 1000 sequences with an average sequence length of 500.
 
 ## Software Dependencies
 
